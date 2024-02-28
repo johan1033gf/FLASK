@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header{
+    margin: 10px ;
+    width: 98%;
+    height: 120px;
+    background: whitesmoke;
+}
+
+header ul{
+    position: absolute; 
+    top: 50px;
+    left: 85%;
+}
+
+
+header ul li{
+    padding: 2px;
+    display: inline;
+    margin-inline: 10px;
+    margin-block: 10px;
+    font-size: 22px;
+    color: rgb(85, 78, 78);
+    transition: all 1.5s;
+    font-weight: bold;
+}
+
+#nusuario{
+    margin-left: 1%;
+}
+
+li{
+    list-style: none;
+}
+
+li:hover{
+    color: rgb(137, 233, 92);
+}
+
+img{
+    height: 120px;
+    
+}
+
+#contenedor_servicios{
+    margin-left: 39%;    
+}
+
+#formularioSeleccionServicios{
+    margin-top: -1%;
+    background-color: #0891b2;
+    color: white;
+    width: 200px;
+    padding: 1px 0 50px;
+    border-radius: 20px; 
+}
+
+#lista-servicios{
+    margin-left: 10px;
+    position: relative;
+    top: 20px;
+}
+
+#s_disp{
+    margin: 1%;
+    background-color: skyblue;
+    height: 60px;
+    width: 165px;
+    border-radius: 20px;
+    border: unset;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#s_disp:hover{
+    color: white;
+    background-color: #03fffe;
+    box-shadow: 1px 1px 40px 1px  #03fffe;
+}
+
+#s_disp1{
+    margin: 1%;
+    background-color: skyblue;
+    height: 60px;
+    width: 190px;
+    border-radius: 20px;
+    border: unset;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#s_disp1:hover{
+    color: white;
+    background-color: #03fffe;
+    box-shadow: 1px 1px 40px 1px  #03fffe;
+}
+
+#save{ 
+    margin-left: 10px;
+    background-color: skyblue;
+    position: relative;
+    top: 20px;
+    height: 40px;
+    width: 90px;
+    border-radius: 20px;
+    border: unset;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#save:hover{
+    color: white;
+    background-color: #03fffe;
+    box-shadow: 1px 1px 40px 1px  #03fffe;
+}
+
+#save:active{
+    transition: 0s;
+    background-color: #a3e635;
+    color: white;
+    box-shadow: 1px 1px 40px 1px #a3e635;
+    filter: drop-shadow(0 0 0 #a3e635);
+}
+
+#fechaHora{
+    position: relative;
+    top: 20px;
+    margin-left: 7px;
+    color: black;
+    border: black;
+    border-radius: 20px;
+    height: 50px;
+}
+
+#rest{
+    margin-left: 1%;
+    background-color: skyblue;
+    position: relative;
+    top: 20px;
+    height: 40px;
+    width: 85px;
+    border-radius: 20px;
+    border: unset;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#rest:hover{
+    color: white;
+    background-color: #dc2626;
+    box-shadow: 1px 1px 40px 1px  #dc2626;
+} 
+
+#contenedor_mostrar{
+    margin-left: 50.1%;
+}
+
+#tabla2{
+    margin-top: 0.2%;
+    background-color: #0891b2;
+    color: white;
+    width: 200px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+#Solicitudes{
+    padding-left: 5%;
+}
+
+h3{
+    position: relative;
+    top: -10px;
+}
+
+#eliminar{
+    margin-left: 30%;
+    background-color: skyblue;
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    border: unset;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#eliminar:hover{
+    color: white;
+    background-color: #dc2626;
+    box-shadow: 1px 1px 40px 1px  #dc2626;
+}
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="sp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registro</title>
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="website icon" type="icon" href="./img/icon3.png">
+
+</head>
+<body> 
+    <form class="formulario" action="http://localhost:3000/crear" method="POST">
+       <h1>Registre Sus Datos</h1>
+       <label for="Nombre"></label>
+       <input type="text" id="Nombre" name="Nombre" placeholder="Nombre" required> 
+
+       <label for="Tipo"></label>
+            <select name="Tipo" id="TD">
+                <option value="">Tipo de Documento</option>
+                <option value="TI">TI</option>
+                <option value="CC">CC</option>
+            </select>
+
+        <label for="Documento"></label>
+        <input type="text" id="Documento" name="Documento" placeholder="Documento" required>
+
+        <label for="Contraseña"></label>
+        <input type="password" id="Contraseña" name="Contraseña" placeholder="Contraseña" required>
+
+        <label for="id_manzanas"></label>
+            <select name="id_manzanas" id="id_manzanas">
+                <option value="">Localidad</option>
+                <option value=1>Bosa</option>
+                <option value=2>Chapinero</option>
+                <option value=3>Suba</option>
+            </select>
+
+        <br>
+        <button class="boton" type="submit">Enviar</button>
+        <a href="index.html"><button class="boton" type="button">Atrás</button></a><br><br>
+
+        <p>Si estas registrado,<a id="naveg" href="inicio.html"> Click Aquí</a></p>
+      </form>
+
+
+</body>
+</html>
